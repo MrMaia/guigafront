@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guiga - Apac</title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+  body {
+    background: #082d55;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navMenu a {
+    margin-right: 10px;
+  }
+
+  .imglogo {
+    width: 300px;
+
+  }
+
+  .textnav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #EDEDED;
+    font-weight: 700;
+  }
+
+  .textnav:hover {
+    background-color: #B7D8C9;
+  }
+
+  .sectionmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+  }
+
+  .sec1fundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    gap: 30px;
+  }
+
+  .sec1h1 {
+    font-weight: 700;
+    padding: 10px;
+  }
+
+  .sec1p {
+    font-size: 25px;
+  }
+
+  .btnperiodo {
+    background-color: #082d55;
+    padding: 10px;
+    color: #EDEDED;
+    border-radius: 5px;
+    font-weight: 600;
+  }
+
+  .parte1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .p1p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .p1h {
+    font-size: 60px;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .parte3 {
+    border-radius: 15px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+  }
+  .h1check{
+    margin-bottom: 10px;
+  }
+  .checks {
+    display: flex;
+    flex-direction: column;
+  }
+  .checkbox{
+    margin-bottom: 10px;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .checklabel{
+    font-size: 18px;
+  }
+  .bc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 1220px;
+    height: 400px;
+    margin-top: 60px;
+  }
+
+
+</style>
+
+<body>
+  <header class="cabecalho">
+    <img class="imglogo" src="assets/imgs/apac_bc.png" alt="">
+    <nav class="navMenu">
+      <a class="textnav" href="#">DIA</a>
+      <a class="textnav" href="#">NOITE</a>
+      <a class="textnav" href="#">TARDE</a>
+      <a class="textnav" href="#">MADRUGADA</a>
+    </nav>
+  </header>
+  <main>
+    <section class="sectionmain">
+      <div class="parte1">
+        <p class="p1p">Valor máximo de chuvas por hora (mm)</p>
+        <h2 class="p1h">12,81 Mil</h2>
+      </div>
+      <div class="parte2">
+        <div class="sec1fundo">
+          <h1 class="sec1h1">CHUVA NA REGIÃO METROPOLITANA</h1>
+          <p class="sec1p">Selecione o período do dia:</p>
+          <div>
+            <a class="btnperiodo" href="#">MANHÃ</a>
+            <a class="btnperiodo" href="#">TARDE</a>
+            <a class="btnperiodo" href="#">NOITE</a>
+            <a class="btnperiodo" href="#">MADRUGADA</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div class="parte3">
+        <h1 class="h1check">Estações</h1>
+        <div class="checks">
+          <div class="checkbox">
+            <input type="checkbox" id="scales" name="scales" checked>
+            <label class="checklabel" for="scales">Alto Bela Vista</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="scales" name="scales">
+            <label class="checklabel" for="scales">Alto Mandu</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="scales" name="scales">
+            <label class="checklabel" for="scales">Areias</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="scales" name="scales">
+            <label class="checklabel" for="scales">Brega e Chique</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="scales" name="scales">
+            <label class="checklabel" for="scales">Campina do Barreto</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="scales" name="scales">
+            <label class="checklabel" for="scales">Corrego Jenipapo</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="scales" name="scales">
+            <label class="checklabel" for="scales">Dois Irmãos</label>
+          </div>
+        </div>
+      </div>
+      <div class="parte4">
+        <div class="sec1fundo">
+          <h1 class="sec1h1">Regiões com maiores chuvas</h1>
+          <div class="mapagoogle">
+            <h1>COLOCA O MAPA AQUI NESSE PARTE</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section3">
+      <div class="bc">
+        <div class="grafico">
+          <h1>texto</h1>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
